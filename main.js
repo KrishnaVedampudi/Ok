@@ -13,7 +13,7 @@ window.OneSignal = window.OneSignal || [];
                method: 'POST',               
                 headers: {               
                   "Content-type": "application/json; charset=utf-8", 
-                  "Access-Control-Allow-Origin":*,
+                  "Access-Control-Allow-Origin":"*",
                   "Authorization": "Basic NzJjNTg0NzUtMzU2Zi00OTExLTgzMTktZmJjM2Y5NDQ5Y2E4"
                 }
            }).then(response => response.json())
