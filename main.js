@@ -14,8 +14,7 @@ window.OneSignal = window.OneSignal || [];
                 headers: {               
                   "Content-type": "application/json; charset=utf-8", 
                   "Access-Control-Allow-Origin":"*",
-                  "Access-Control-Request-Method":"POST"
-                  "Access-Control-Request-Headers":"Access-Control-Allow-Origin-requested-*"
+                  "Access-Control-Request-Method":"POST",                  
                   "Authorization": "Basic NzJjNTg0NzUtMzU2Zi00OTExLTgzMTktZmJjM2Y5NDQ5Y2E4"
                 }
            }).then(response => response.json())
